@@ -20,7 +20,12 @@ img {
   display: block;
 
 }
-
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 .visually-hidden {
   position: absolute;
@@ -252,7 +257,7 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4) ;
 }
 .ourteam-menu-name {
   color: #2e2f42;
