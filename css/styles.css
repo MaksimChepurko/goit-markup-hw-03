@@ -223,7 +223,7 @@ img {
   margin: 32px 16px;
 }
 .ourteam-menu:first-child {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .ourteam {
   background-color: #f4f4fd;
