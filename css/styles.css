@@ -218,6 +218,10 @@ ol {
   text-align: left;
   max-width: 264px;
 }
+  
+
+
+
 .ourteam-container {
   padding: 32px 0 ;
 }
@@ -225,7 +229,8 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 32px 16px;
+  padding: 32px 0 32px
+
 }
 
 .ourteam {
