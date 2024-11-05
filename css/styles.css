@@ -214,7 +214,7 @@ img {
   max-width: 264px;
 }
 .ourteam-container {
-  padding: 32px 0 32px;
+  padding: 32px 0 ;
 }
 .container-name-text {
   display: flex;
@@ -247,7 +247,6 @@ img {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .ourteam-menu-item {
   background-color: #ffffff;
@@ -281,7 +280,10 @@ img {
   align-items: center;
 }
 .portfolio {
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
+}
+.portfolio-container {
+  
 }
 .portfolio-title{
     color: #2e2f42;
