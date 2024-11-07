@@ -54,7 +54,7 @@ ol {
 
 .container-header {
  display: flex;
- 
+ align-items: center;
 }
 
 .header-logo {
@@ -65,8 +65,6 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
   margin-right: 76px;
   padding: 24px 0;
 }
@@ -96,10 +94,11 @@ ol {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   padding: 24px 0;
+  display: block;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -111,8 +110,6 @@ ol {
 
 .address {
   font-style: normal;
-  display: flex;
-  align-items: center;
 }
 .address-menu {
  display: flex;
@@ -124,9 +121,10 @@ ol {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  padding: 24px 0;
 }
 .address-menu-link:hover {
   color: #404bbf;
@@ -216,19 +214,14 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  max-width: 264px;
+ 
 }
   
 
 
 
-.ourteam-container {
-  padding: 32px 0 ;
-}
+
 .container-name-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 32px 0 32px
 
 }
@@ -245,10 +238,7 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
   margin-bottom: 72px;
 }
 .ourteam-menu {
@@ -271,17 +261,14 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
   margin-bottom: 8px;
 }
 .ourteam-menu-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   display: flex;
@@ -291,9 +278,7 @@ ol {
 .portfolio {
   padding: 120px 0 120px 0;
 }
-.portfolio-container {
-  
-}
+
 .portfolio-title{
     color: #2e2f42;
     text-align: center;
@@ -302,15 +287,10 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 72px;
 }
 .portfolio-menu {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
@@ -319,14 +299,7 @@ ol {
 .portfolio-menu:first-child{
   width: calc((100% - 48px) / 3);
 }
-.portfolio-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 120px;
-  margin-bottom: 72px;
-}
+
 .portfolio-container-name-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -336,14 +309,35 @@ ol {
   max-width: calc((100% - 48px) / 3);
 
 }
+.portfolio-menu-name {
+  color: #2e2f42;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+ 
+  margin-bottom: 8px;
+}
 
+
+.portfolio-menu-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  
+
+}
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-container {
 
-}
 .footer-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
